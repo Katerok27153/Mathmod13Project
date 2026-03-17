@@ -2,101 +2,101 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/event/example/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/event/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/event/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/contact/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/contact/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/people/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/people/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tour/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/tour/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/20-12-02-icml-best-paper/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/post/20-12-02-icml-best-paper/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/post/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/20-12-01-wowchemy-prize/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/post/20-12-01-wowchemy-prize/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/preprint/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/article/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/publication-type/article/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/authors/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/authors/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/author/nelson-bighetti/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/author/nelson-bighetti/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication_types/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/source-themes/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/tags/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/journal-article/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/article-journal/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/publication-type/article-journal/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/author/robert-ford/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/author/robert-ford/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/conference-paper/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/paper-conference/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/publication-type/paper-conference/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/admin/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/categories/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
