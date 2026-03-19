@@ -14,9 +14,9 @@
     
     <item>
       <title>Этап 1. Модель колебаний цепочек. Теоретическое описание задачи и модели</title>
-      <link>http://localhost:1313/Mathmod13Project/event/example/</link>
+      <link>http://localhost:1313/Mathmod13Project/event/stage1/</link>
       <pubDate>Thu, 19 Mar 2026 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Mathmod13Project/event/example/</guid>
+      <guid>http://localhost:1313/Mathmod13Project/event/stage1/</guid>
       <description>&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
 &lt;h3 id=&#34;что-делали&#34;&gt;Что делали&lt;/h3&gt;
 &lt;p&gt;На первом этапе проекта выполнили теоретическое описание модели колебаний одномерной цепочки частиц, соединенных пружинками. Это простейшая модель твердого тела (кристаллической решетки).&lt;/p&gt;
@@ -47,7 +47,7 @@
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1u2PSTe6sBN1nFW0qs0e_H0620vM1etoW/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Скачать презентацию (PDF)&lt;/a&gt;&lt;/strong&gt; — слайды защиты&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://rutube.ru/video/private/075bd744719ff60ac52703e602b35d7d/?p=B8DrWpELk5VrhpLTxCYeZw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Смотреть на Rutube&lt;/a&gt;&lt;/strong&gt; — видео защиты&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://rutube.ru/plst/1542100&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Плейлист на Rutube&lt;/a&gt;&lt;/strong&gt; — плейлист&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://vkvideo.ru/video-232514568_456239152?sh=4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Смотреть в VK Видео&lt;/a&gt;&lt;/strong&gt; — видео защиты&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://vkvideo.ru/video-232514568_456239153&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Смотреть в VK Видео&lt;/a&gt;&lt;/strong&gt; — видео защиты&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://vkvideo.ru/playlist/-232514568_34&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Плейлист в VK Видео&lt;/a&gt;&lt;/strong&gt; — плейлист&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Katerok27153/study_2025-2026_mathmod.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Репозиторий на GitHub&lt;/a&gt;&lt;/strong&gt; — репозиторий проекта&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Katerok27153/study_2025-2026_mathmod/releases/tag/v1.0.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Релиз на GitHub&lt;/a&gt;&lt;/strong&gt; — релиз проекта&lt;/li&gt;

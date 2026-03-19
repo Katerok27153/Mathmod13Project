@@ -50,7 +50,7 @@
     <lastmod>2026-03-19T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/Mathmod13Project/event/example/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/event/stage1/</loc>
     <lastmod>2026-03-19T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -58,7 +58,23 @@
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/Mathmod13Project/post/20-12-02-icml-best-paper-2/</loc>
+    <loc>http://localhost:1313/Mathmod13Project/publication-type/paper-conference/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/Mathmod13Project/publication_types/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/Mathmod13Project/publication/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/Mathmod13Project/post/stage1/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/Mathmod13Project/publication/pub1/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -76,30 +92,6 @@
   </url><url>
     <loc>http://localhost:1313/Mathmod13Project/tour/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/Mathmod13Project/author/admin/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/Mathmod13Project/publication/pub1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/Mathmod13Project/publication-type/paper-conference/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/Mathmod13Project/publication_types/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/Mathmod13Project/publication/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/Mathmod13Project/author/robert-ford/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/Mathmod13Project/admin/</loc>
