@@ -1,16 +1,85 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Богаткина Алёна Александровна | Wowchemy Research Group</title>
+    <title>Богаткина Алёна Александровна | Колебания цепочек</title>
     <link>http://localhost:1313/Mathmod13Project/author/%D0%B1%D0%BE%D0%B3%D0%B0%D1%82%D0%BA%D0%B8%D0%BD%D0%B0-%D0%B0%D0%BB%D0%B5%D0%BD%D0%B0-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0/</link>
       <atom:link href="http://localhost:1313/Mathmod13Project/author/%D0%B1%D0%BE%D0%B3%D0%B0%D1%82%D0%BA%D0%B8%D0%BD%D0%B0-%D0%B0%D0%BB%D0%B5%D0%BD%D0%B0-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     <description>Богаткина Алёна Александровна</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Mar 2026 13:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/Mathmod13Project/author/%D0%B1%D0%BE%D0%B3%D0%B0%D1%82%D0%BA%D0%B8%D0%BD%D0%B0-%D0%B0%D0%BB%D0%B5%D0%BD%D0%B0-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0/avatar_hudb69985b7eb589a18274d54b9336dfdd_141112_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Богаткина Алёна Александровна</title>
       <link>http://localhost:1313/Mathmod13Project/author/%D0%B1%D0%BE%D0%B3%D0%B0%D1%82%D0%BA%D0%B8%D0%BD%D0%B0-%D0%B0%D0%BB%D0%B5%D0%BD%D0%B0-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0/</link>
     </image>
+    
+    <item>
+      <title>Этап 1. Модель колебаний цепочек. Теоретическое описание задачи и модели</title>
+      <link>http://localhost:1313/Mathmod13Project/event/example/</link>
+      <pubDate>Thu, 19 Mar 2026 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Mathmod13Project/event/example/</guid>
+      <description>&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
+&lt;h3 id=&#34;что-делали&#34;&gt;Что делали&lt;/h3&gt;
+&lt;p&gt;На первом этапе проекта выполнили теоретическое описание модели колебаний одномерной цепочки частиц, соединенных пружинками. Это простейшая модель твердого тела (кристаллической решетки).&lt;/p&gt;
+&lt;h3 id=&#34;две-модели&#34;&gt;Две модели&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Гармоническая&lt;/strong&gt; — пружинки подчиняются закону Гука (линейный случай)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ангармоническая&lt;/strong&gt; — добавлена нелинейная поправка (задача Ферми-Паста-Улама)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;основные-результаты-этапа&#34;&gt;Основные результаты этапа&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Вывели уравнения движения для цепочки частиц&lt;/li&gt;
+&lt;li&gt;Получили дисперсионное соотношение и описали нормальные моды колебаний&lt;/li&gt;
+&lt;li&gt;Рассмотрели ангармонический случай и сформулировали задачу Ферми-Паста-Улама&lt;/li&gt;
+&lt;li&gt;Описали численный алгоритм (схема «чехарда» для интегрирования уравнений)&lt;/li&gt;
+&lt;li&gt;Подготовили метод анализа распределения энергии по модам через дискретное преобразование Фурье&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;параметры-модели&#34;&gt;Параметры модели&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Число частиц: 32 (как в оригинальном расчете FPU)&lt;/li&gt;
+&lt;li&gt;Масса частицы: 1&lt;/li&gt;
+&lt;li&gt;Жесткость пружин: 1&lt;/li&gt;
+&lt;li&gt;Равновесное расстояние: 1&lt;/li&gt;
+&lt;li&gt;Коэффициент ангармонизма: 0.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;материалы-проекта&#34;&gt;Материалы проекта&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1vw-zbtj4dFmlj5RDVqhjWZtXP4ILKiFz/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Скачать отчёт (PDF)&lt;/a&gt;&lt;/strong&gt; — полное теоретическое описание&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1u2PSTe6sBN1nFW0qs0e_H0620vM1etoW/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Скачать презентацию (PDF)&lt;/a&gt;&lt;/strong&gt; — слайды защиты&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://rutube.ru/video/private/075bd744719ff60ac52703e602b35d7d/?p=B8DrWpELk5VrhpLTxCYeZw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Смотреть на Rutube&lt;/a&gt;&lt;/strong&gt; — видео защиты&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://rutube.ru/plst/1542100&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Плейлист на Rutube&lt;/a&gt;&lt;/strong&gt; — плейлист&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://vkvideo.ru/video-232514568_456239152?sh=4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Смотреть в VK Видео&lt;/a&gt;&lt;/strong&gt; — видео защиты&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://vkvideo.ru/playlist/-232514568_34&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Плейлист в VK Видео&lt;/a&gt;&lt;/strong&gt; — плейлист&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Завершен первый этап группового проекта &#34;Модель колебаний цепочек&#34;</title>
+      <link>http://localhost:1313/Mathmod13Project/post/20-12-02-icml-best-paper-2/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Mathmod13Project/post/20-12-02-icml-best-paper-2/</guid>
+      <description>&lt;p&gt;Поздравляем нашу команду с завершением первого этапа группового проекта &amp;ldquo;Модель колебаний цепочек&amp;rdquo;! Выполнено теоретическое описание задачи и модели.&lt;/p&gt;
+&lt;p&gt;На первом этапе мы исследовали одномерную цепочку связанных осцилляторов — простейшую модель твердого тела (кристаллической решетки). Рассмотрены два случая: гармонический (линейные пружинки по закону Гука) и ангармонический (с нелинейной поправкой) — известная задача Ферми-Паста-Улама (FPU).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Основные результаты этапа:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Вывели уравнения движения для цепочки частиц, соединенных пружинками&lt;/li&gt;
+&lt;li&gt;Получили дисперсионное соотношение и описали нормальные моды колебаний&lt;/li&gt;
+&lt;li&gt;Рассмотрели ангармонический случай и сформулировали задачу Ферми-Паста-Улама&lt;/li&gt;
+&lt;li&gt;Описали численный алгоритм (схема «чехарда» для интегрирования уравнений)&lt;/li&gt;
+&lt;li&gt;Подготовили метод анализа распределения энергии по модам через дискретное преобразование Фурье&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Параметры модели:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Число частиц: 32 (как в оригинальном расчете FPU)&lt;/li&gt;
+&lt;li&gt;Масса частицы: 1&lt;/li&gt;
+&lt;li&gt;Жесткость пружин: 1&lt;/li&gt;
+&lt;li&gt;Равновесное расстояние: 1&lt;/li&gt;
+&lt;li&gt;Коэффициент ангармонизма: 0.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Что дальше?&lt;/strong&gt;&lt;br&gt;
+Следующий этап — численные эксперименты: верификация модели на гармоническом случае и изучение феномена возврата Ферми-Паста-Улама. Это явление заключается в том, что в ангармонической цепочке энергия не рассеивается равномерно по всем модам (как ожидалось), а периодически возвращается в исходную моду.&lt;/p&gt;
+&lt;p&gt;Следите за нашими новостями! Будем публиковать результаты численных экспериментов и графики.&lt;/p&gt;</description>
+    </item>
     
   </channel>
 </rss>
