@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://katerok27153.github.io/Mathmod13Project/sitemap.xml
