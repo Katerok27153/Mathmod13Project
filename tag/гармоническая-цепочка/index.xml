@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Гармоническая Цепочка | Колебания цепочек</title>
+    <link>http://localhost:1313/Mathmod13Project/tag/%D0%B3%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%86%D0%B5%D0%BF%D0%BE%D1%87%D0%BA%D0%B0/</link>
+      <atom:link href="http://localhost:1313/Mathmod13Project/tag/%D0%B3%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%86%D0%B5%D0%BF%D0%BE%D1%87%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    <description>Гармоническая Цепочка</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2026 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/Mathmod13Project/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Гармоническая Цепочка</title>
+      <link>http://localhost:1313/Mathmod13Project/tag/%D0%B3%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%86%D0%B5%D0%BF%D0%BE%D1%87%D0%BA%D0%B0/</link>
+    </image>
+    
+    <item>
+      <title>Этап 3. Модель колебаний цепочек. Комплекс программ для решения задачи о колебаниях цепочек</title>
+      <link>http://localhost:1313/Mathmod13Project/event/stage3/</link>
+      <pubDate>Thu, 30 Apr 2026 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Mathmod13Project/event/stage3/</guid>
+      <description>&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
+&lt;h3 id=&#34;что-делали&#34;&gt;Что делали&lt;/h3&gt;
+&lt;p&gt;На третьем этапе разработан комплекс программ на языке Julia, реализующий численное моделирование колебаний одномерных цепочек частиц в гармоническом и ангармоническом приближениях.&lt;/p&gt;
+&lt;h3 id=&#34;пять-реализованных-задач&#34;&gt;Пять реализованных задач&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Моделирование гармонической цепочки (task1.jl)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Численное интегрирование схемы «чехарда» (leapfrog)&lt;/li&gt;
+&lt;li&gt;Параметры: N = 32, m = 1, k = 1, Δt = 0.01, T = 100&lt;/li&gt;
+&lt;li&gt;Начальное условие — первая нормальная мода&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Измерение собственных частот (task2.jl)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Определение частоты по пересечениям нуля&lt;/li&gt;
+&lt;li&gt;Сравнение с теоретическим дисперсионным соотношением&lt;/li&gt;
+&lt;li&gt;Отклонение для чётных мод &amp;lt; 1%, для нечётных — до 32% (из-за метода измерения)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Анализ независимости нормальных мод (task3.jl)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Дискретное синус-преобразование (DST) с ортонормировкой&lt;/li&gt;
+&lt;li&gt;Вычисление энергии первых пяти мод&lt;/li&gt;
+&lt;li&gt;Подтверждение отсутствия перетекания энергии между модами в гармоническом случае&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Цепочка с чередующимися массами (task4.jl)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;m_light = 1, m_heavy = 2&lt;/li&gt;
+&lt;li&gt;Моделирование бинарной кристаллической структуры (типа NaCl)&lt;/li&gt;
+&lt;li&gt;Индивидуальное ускорение для каждой частицы&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ангармоническая цепочка. Задача Ферми-Паста-Улама (task5.jl)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Кубическая нелинейность: α = 0.5&lt;/li&gt;
+&lt;li&gt;Метод Velocity Verlet&lt;/li&gt;
+&lt;li&gt;Наблюдение FPU-возврата (рекурренции энергии): концентрация энергии в низших модах и циклический возврат в первую моду&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;основные-результаты-этапа&#34;&gt;Основные результаты этапа&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Разработаны 5 рабочих программ на Julia, прошедших тестирование&lt;/li&gt;
+&lt;li&gt;Подтверждено дисперсионное соотношение для нормальных мод&lt;/li&gt;
+&lt;li&gt;Экспериментально проверена независимость мод в линейном приближении&lt;/li&gt;
+&lt;li&gt;Промоделирована цепочка с чередующимися массами&lt;/li&gt;
+&lt;li&gt;Качественно воспроизведён классический эффект FPU-возврата, противоречащий интуиции термализации&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;параметры-моделей&#34;&gt;Параметры моделей&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Число частиц: 32&lt;/li&gt;
+&lt;li&gt;Масса (гармоническая): 1&lt;/li&gt;
+&lt;li&gt;Массы (чередующиеся): 1 (нечётные) / 2 (чётные)&lt;/li&gt;
+&lt;li&gt;Жёсткость пружин: 1&lt;/li&gt;
+&lt;li&gt;Коэффициент ангармонизма α: 0.5 (для FPU)&lt;/li&gt;
+&lt;li&gt;Шаг по времени Δt: 0.01 (task1, task3, task5) / 0.001 (task2, task4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;материалы-проекта&#34;&gt;Материалы проекта&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1RmWuQRH_DTpkUBbi06U9XcyT5nokR6ym/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Скачать отчёт (PDF)&lt;/a&gt;&lt;/strong&gt; — полное теоретическое описание&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1wRPP96B8eEdxANnxC7ucvXSVnOzxa6B1/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Скачать презентацию (PDF)&lt;/a&gt;&lt;/strong&gt; — слайды защиты&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://rutube.ru/video/private/405b6010def42895b6274dbc9ed23bcb/?p=sP34Q8XCii8bO1riyRJySg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Смотреть на Rutube&lt;/a&gt;&lt;/strong&gt; — видео защиты&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://rutube.ru/plst/1613333&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Плейлист на Rutube&lt;/a&gt;&lt;/strong&gt; — плейлист&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://vkvideo.ru/video-232514568_456239212?pl=-232514568_46&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Смотреть в VK Видео&lt;/a&gt;&lt;/strong&gt; — видео защиты&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://vkvideo.ru/playlist/-232514568_46&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Плейлист в VK Видео&lt;/a&gt;&lt;/strong&gt; — плейлист&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Katerok27153/study_2025-2026_mathmod.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Репозиторий на GitHub&lt;/a&gt;&lt;/strong&gt; — репозиторий проекта&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Katerok27153/study_2025-2026_mathmod/releases/tag/v3.0.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Релиз на GitHub&lt;/a&gt;&lt;/strong&gt; — релиз проекта&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://gitverse.ru/Katerok27153/study_2025-2026_mathmod.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Репозиторий на GitVerse&lt;/a&gt;&lt;/strong&gt; — репозиторий проекта&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://gitverse.ru/Katerok27153/study_2025-2026_mathmod/releases/tag/v3.0.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Релиз на GitVerse&lt;/a&gt;&lt;/strong&gt; — релиз проекта&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1N0UL_G728xvqp_COpMaiwtimliTKzwLW/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Архив с кодами (ZIP)&lt;/a&gt;&lt;/strong&gt; - task1.jl - task5.jl&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Этап 3. Модель колебаний цепочек. Комплекс программ для решения задачи о колебаниях цепочек. Публикация</title>
+      <link>http://localhost:1313/Mathmod13Project/publication/pub3/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Mathmod13Project/publication/pub3/</guid>
+      <description>&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
+&lt;h3 id=&#34;что-делали&#34;&gt;Что делали&lt;/h3&gt;
+&lt;p&gt;На третьем этапе разработан комплекс программ на языке Julia, реализующий численное моделирование колебаний одномерных цепочек частиц в гармоническом и ангармоническом приближениях.&lt;/p&gt;
+&lt;h3 id=&#34;пять-реализованных-программ&#34;&gt;Пять реализованных программ&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Гармоническая цепочка (task1.jl)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Численное интегрирование схемы «чехарда» (leapfrog)&lt;/li&gt;
+&lt;li&gt;Параметры: N = 32, m = 1, k = 1, Δt = 0.01, T = 100&lt;/li&gt;
+&lt;li&gt;Начальное условие — первая нормальная мода&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Измерение собственных частот (task2.jl)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Определение частоты по пересечениям нуля&lt;/li&gt;
+&lt;li&gt;Сравнение с теоретическим дисперсионным соотношением&lt;/li&gt;
+&lt;li&gt;Отклонение для чётных мод &amp;lt; 1%, для нечётных — до 32% (из-за метода измерения)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Анализ независимости нормальных мод (task3.jl)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Дискретное синус-преобразование (DST) с ортонормировкой&lt;/li&gt;
+&lt;li&gt;Вычисление энергии первых пяти мод&lt;/li&gt;
+&lt;li&gt;Подтверждение отсутствия перетекания энергии между модами в гармоническом случае&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Цепочка с чередующимися массами (task4.jl)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;m_light = 1, m_heavy = 2&lt;/li&gt;
+&lt;li&gt;Моделирование бинарной кристаллической структуры (типа NaCl)&lt;/li&gt;
+&lt;li&gt;Индивидуальное ускорение для каждой частицы&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ангармоническая цепочка. Задача Ферми-Паста-Улама (task5.jl)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Кубическая нелинейность: α = 0.5&lt;/li&gt;
+&lt;li&gt;Метод Velocity Verlet&lt;/li&gt;
+&lt;li&gt;Наблюдение FPU-возврата (рекурренции энергии)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;основные-результаты-этапа&#34;&gt;Основные результаты этапа&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Разработаны 5 рабочих программ на Julia, прошедших тестирование&lt;/li&gt;
+&lt;li&gt;Подтверждено дисперсионное соотношение для нормальных мод&lt;/li&gt;
+&lt;li&gt;Экспериментально проверена независимость мод в линейном приближении&lt;/li&gt;
+&lt;li&gt;Промоделирована цепочка с чередующимися массами&lt;/li&gt;
+&lt;li&gt;Качественно воспроизведён классический эффект FPU-возврата&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;технические-детали-реализации&#34;&gt;Технические детали реализации&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Язык программирования&lt;/strong&gt;: Julia 1.9+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ключевые пакеты&lt;/strong&gt;: Plots.jl (визуализация), FFTW.jl (быстрое преобразование Фурье)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Объём кода&lt;/strong&gt;: ~300 строк с документацией&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Время счёта&lt;/strong&gt;: для N=32 частиц, T=10000 шагов ~2 секунды&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;параметры-по-умолчанию&#34;&gt;Параметры по умолчанию&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Параметр&lt;/th&gt;
+&lt;th&gt;Значение&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Число частиц N&lt;/td&gt;
+&lt;td&gt;32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Масса частицы m&lt;/td&gt;
+&lt;td&gt;1.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Жёсткость пружин k&lt;/td&gt;
+&lt;td&gt;1.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Равновесное расстояние&lt;/td&gt;
+&lt;td&gt;1.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Шаг по времени Δt&lt;/td&gt;
+&lt;td&gt;0.05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Число шагов&lt;/td&gt;
+&lt;td&gt;10000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Коэффициент ангармонизма β&lt;/td&gt;
+&lt;td&gt;0.1, 0.25, 0.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;материалы-проекта&#34;&gt;Материалы проекта&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1RmWuQRH_DTpkUBbi06U9XcyT5nokR6ym/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Скачать отчёт (PDF)&lt;/a&gt;&lt;/strong&gt; — полное теоретическое описание&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1wRPP96B8eEdxANnxC7ucvXSVnOzxa6B1/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Скачать презентацию (PDF)&lt;/a&gt;&lt;/strong&gt; — слайды защиты&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://rutube.ru/video/private/405b6010def42895b6274dbc9ed23bcb/?p=sP34Q8XCii8bO1riyRJySg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Смотреть на Rutube&lt;/a&gt;&lt;/strong&gt; — видео защиты&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://rutube.ru/plst/1613333&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Плейлист на Rutube&lt;/a&gt;&lt;/strong&gt; — плейлист&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://vkvideo.ru/video-232514568_456239212?pl=-232514568_46&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Смотреть в VK Видео&lt;/a&gt;&lt;/strong&gt; — видео защиты&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://vkvideo.ru/playlist/-232514568_46&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Плейлист в VK Видео&lt;/a&gt;&lt;/strong&gt; — плейлист&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Katerok27153/study_2025-2026_mathmod.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Репозиторий на GitHub&lt;/a&gt;&lt;/strong&gt; — репозиторий проекта&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/Katerok27153/study_2025-2026_mathmod/releases/tag/v3.0.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Релиз на GitHub&lt;/a&gt;&lt;/strong&gt; — релиз проекта&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://gitverse.ru/Katerok27153/study_2025-2026_mathmod.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Репозиторий на GitVerse&lt;/a&gt;&lt;/strong&gt; — репозиторий проекта&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://gitverse.ru/Katerok27153/study_2025-2026_mathmod/releases/tag/v3.0.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Релиз на GitVerse&lt;/a&gt;&lt;/strong&gt; — релиз проекта&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1N0UL_G728xvqp_COpMaiwtimliTKzwLW/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Архив с кодами (ZIP)&lt;/a&gt;&lt;/strong&gt; - task1.jl - task5.jl&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
